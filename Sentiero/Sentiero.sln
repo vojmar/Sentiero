@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentieroCore", "Sentiero\SentieroCore.csproj", "{929B478B-BCFA-4807-89C7-12CF989BC191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929B478B-BCFA-4807-89C7-12CF989BC191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929B478B-BCFA-4807-89C7-12CF989BC191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929B478B-BCFA-4807-89C7-12CF989BC191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929B478B-BCFA-4807-89C7-12CF989BC191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D962C270-0531-4C18-973C-2BC5805F78BA}
+	EndGlobalSection
+EndGlobal
