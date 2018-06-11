@@ -14,11 +14,12 @@ namespace Sentiero
 
         internal void RemoveProtocol(string protocolName)
         {
-            if (argument.StartsWith(protocolName + ":"))
+            if (argument.ToLower().StartsWith(protocolName.ToLower() + ":"))
             {
                 argument = argument.Remove(0,protocolName.Length+1);
             }
         }
+        
 
         internal string GetCallName()
         {

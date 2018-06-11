@@ -28,9 +28,16 @@ namespace Sentiero
             p.StartInfo.UseShellExecute = false;
             if (Args != null)
             {
-                p.StartInfo.Arguments = string.Join(" ", Args);
+                p.StartInfo.Arguments = "\"" + string.Join("\" \"", Args) + "\"";
             }
-            p.Start();
+            try
+            {
+                p.Start();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message,"Sentiero core error");
+            }
         }
     }
 }
